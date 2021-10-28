@@ -14,4 +14,4 @@ router.get('/', function(req, res, next) {
     res.end('Math.sqrt applied to '+value+" is "+Math.sqrt(value));
  });
 
-module.exports = router;x
+module.exports = router;
