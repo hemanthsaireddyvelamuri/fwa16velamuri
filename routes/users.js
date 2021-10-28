@@ -1,10 +1,9 @@
 var express = require('express');
 var router = express.Router();
-var alpha
+var alpha = 0;
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
   alpha = alpha+1
   res.send('User accesses are: ${alpha}');
   
