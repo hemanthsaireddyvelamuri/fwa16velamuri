@@ -4,8 +4,8 @@ var alpha = 0;
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  alpha = alpha+1
-  res.send('User accesses are: ${alpha}');
+  alpha = alpha+1;
+  res.send(`User accesses are: ${alpha}`);
   
 });
 
