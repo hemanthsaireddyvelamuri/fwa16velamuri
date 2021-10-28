@@ -9,9 +9,9 @@ router.get('/', function(req, res, next) {
      value =Number(search_params.get("x"))
     if(value == 0)
     value=Math.random()
-    res.write("Computes the values for Math.atan and math.exp function."+"\n")
-    res.write('Math.atan applied to '+value+" is "+Math.atan(value)+"\n");
-    res.end('Math.exp applied to '+value+" is "+Math.exp(value));
+    res.write("Computes the values for Math.tan and math.sqrt function."+"\n")
+    res.write('Math.tan applied to '+value+" is "+Math.tan(value)+"\n");
+    res.end('Math.sqrt applied to '+value+" is "+Math.sqrt(value));
  });
 
-module.exports = router;
+module.exports = router;x
